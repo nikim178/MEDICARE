@@ -1,0 +1,197 @@
+body {
+    background-color: #e9f2fc
+}
+
+.height-100 {
+    height: 500px
+}
+
+.patimg{
+    width: 53vw;
+    margin-top: 13px;
+    margin-left: -100px;
+}
+.docimg{
+    width: 44vw;
+    margin-left: -46px;
+    margin-top: 40px ;
+    
+}
+.my-bg-class {
+    background-color: #3B3C36; /* change to your desired color */
+  }
+
+.sidebar {
+    
+    position: relative;
+    overflow: hidden
+
+}
+
+.chart-design {
+    list-style: none
+}
+
+.chart-design li:nth-child(4) {
+    position: absolute;
+    top: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: #b7c2d4;
+    border-radius: 100% 0% 0% 100% / 0% 56% 44% 100%;
+    opacity: 0.4
+}
+
+.chart-design li:nth-child(2) {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    transform: rotate(-10deg);
+    height: 70px;
+    width: 70px;
+    background-color: #000;
+    border-radius: 100% 0% 0% 100% / 0% 56% 44% 100%;
+    opacity: 0.4
+}
+
+
+.chart-design li:nth-child(1) {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    transform: rotate(-10deg);
+    height: 150px;
+    width: 150px;
+    background-color: #000;
+    border-radius: 50%;
+    opacity: 0.4
+}
+
+.chart-design li:nth-child(5) {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    transform: rotate(-10deg);
+    height: 70px;
+    width: 70px;
+    background-color: #000;
+    border-radius: 50%;
+    opacity: 0.7
+}
+
+.chart-design li:nth-child(6) {
+    position: absolute;
+    top: 120px;
+    left: 40%;
+    transform: rotate(-10deg);
+    height: 200px;
+    width: 200px;
+    background-color: #000;
+    border-radius: 50%;
+    opacity: 0.2
+}
+
+.form-data {
+    width: 100%;
+    margin-bottom: 10px
+}
+
+.main-heading {
+    font-size: 30px
+}
+
+.form-data label {
+    font-size: 13px;
+    margin-left: 2px
+}
+
+.form-data input {
+    height: 50px;
+    border: 2px solid #eee;
+    transition: all 1s;
+    border-radius: 5px
+}
+
+.form-data input:focus {
+    outline: none;
+    border: 2px solid #000;
+    box-shadow: none
+}
+.card{
+    background-color:#fff;
+    border:none;
+    height:500px;
+    overflow:hidden;
+}
+.forgot-text {
+    color: red;
+}
+.new-text {
+    color: red;
+    margin-top: 2%;
+    text-decoration: none;
+}
+.signin-btn .btn {
+    width: 100%;
+    height: 46px;
+    color: white;
+    margin-top: 10px
+}
+
+
+
+
+.card{
+    background-color:#fff;
+    border:none;
+    height:500px;
+    overflow:hidden;
+}
+
+.input-field{
+    position:relative;
+    margin-top:5px;
+}
+
+.input-field input{
+    height:50px;
+    outline:none !important;
+    border:2px solid #eee;
+   
+}
+
+.input-field input:focus{
+    box-shadow:none;
+    outline:none !important;
+}
+
+.input-field label{
+    position:absolute;
+    top:10px;
+    left:6px;
+    transition:all 0.5s;
+    background-color:#fff;
+    padding:0px 10px;
+    border-radius:20px;
+    
+     
+}
+
+.input-field input:focus+label,
+.input-field input:valid+label
+{
+    position:absolute;
+    top:-10px;
+    left:6px;
+    font-size:13px;
+  
+}
+
+
+
+.signup-button {
+    height: 50px;
+    font-size: 19px;
+    background-color: #3B3C36 !important;
+    text-transform: uppercase;
+}
